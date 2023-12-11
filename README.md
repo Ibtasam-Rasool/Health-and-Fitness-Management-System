@@ -5,3 +5,4 @@ Everything is present in our github, here you will find the SQL queries located 
 
 ## Video Link
 
+https://www.youtube.com/watch?v=52Yd19lHUBw&ab_channel=AshwinKumar
