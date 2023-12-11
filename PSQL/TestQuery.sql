@@ -1,4 +1,4 @@
-SELECT COUNT(member_id) as total_members FROM members;	--Find Total Members
+SELECT COUNT(member_id) as total_members FROM members;
 SELECT * FROM Equipment WHERE room_number = 1 AND maintenance_needed = TRUE;
 SELECT concat(f_name, ' ',l_name) as name FROM Members WHERE member_id IN (SELECT member_id FROM attend WHERE session_id = 1);
 SELECT concat(f_name, ' ',l_name) as supervisor_name FROM Administrative_staff WHERE staff_id = (SELECT staff_id FROM Supervises WHERE trainer_id = 1);
