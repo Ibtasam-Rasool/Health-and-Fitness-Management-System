@@ -17,8 +17,7 @@ SELECT SUM (price) as Total_Cost FROM
 SELECT concat(f_name, ' ',l_name) as name FROM Members WHERE member_id IN (SELECT member_id FROM attend WHERE session_id = 1);
 
 
-
-ADMIN OPERATIONS:
+--ADMIN OPERATIONS:
 
 --ADD MEMBER TO A PLAN:
 
